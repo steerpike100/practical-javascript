@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home1/tourmal6/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp script.js $DEPLOYPATH
